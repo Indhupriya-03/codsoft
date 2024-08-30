@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page </title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+body{
+    font: size 17px;
+    background-color: white;
+    color:black;
+}
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing:content-box;
+    margin-top:50px;
+}
+p{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif,'Times New Roman', Times,;
+}
+details{
+    width: 100%;
+    font-family: sans-serif;
+    border: 2px solid purple;
+    paddindg: 5px;
+}
+details p{
+    padding:20px;
+    color: #000;
+    background: white;   
+}
+summary{
+    padding:20px;
+    border:1px solid skyblue;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+}
+section{
+    max-width: 80%;
+    width: 100%;    
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+h3{
+    margin: 10px;
+}
+figcaption{
+    margin: 20px;
+    font-size: 20px;
+    width: 55%;
+}
+#title{
+    color:orange;
+}
+b{
+    color:black;
+}
+#tribute-info{
+    width: 50%;
+}
+@media screen and (max-width:600px) {
+    figcaption{
+        width: 80%;
+        font-size: 15px;
+    }
+    #tribute-info{
+        width:100%;
+    } 
+#main{
+    margin-top:0;
+}
+
+}
+</style>
+<body>
+   <center>
+    <main id="main">
+    <h1 id="title">Akhhil Buddhi</h1>
+    <p>IAS Officer</p>
+    <div class="img-div">
+    <figure>
+        <img src="akhil buddhi 3.jpg" alt=""id="image"width="170" height="170">
+        <figcaption id="img-caption"><q><b>IAS Akhil Buddhi is a distinguished Indian Administrative Service officer renowned for his visionary leadership and unwavering commitment to public service. Known for his innovative approach to governance, he has made significant contributions in areas such as community development, educational reform, and environmental conservation, inspiring both colleagues and citizens with his integrity and dedication to positive change.</b></q></figcaption>
+    </figure>
+</div>
+<section id="tribute-info">
+    <details>
+        <summary>IAS Akhil Buddhi is known for?</summary>
+        <p>Dedication to public service: The quote "Dedicated to serving the nation and its people with
+            integrity and compassion" highlights this key aspect of his character.
+            Leadership qualities,Notable achievements,Inspirational figure and Role model.Akhil Buddhi's career in the Indian Administrative Service is marked by his innovative approach to tackling complex administrative challenges. His work spans several crucial areas of public administration, including community development, educational reform, environmental conservation, and the enhancement of public service delivery systems.</p>
+    </details>
+    <details>
+        <summary>Notable Achievements</summary>
+        <p>Implemented successful community development programs
+            Spearheaded initiatives for educational reform
+            Led efforts in environmental conservation
+            Improved public service delivery systems
+
+            These achievements highlight his work in various crucial areas of public administration. However,
+            it's important to note that these are general statements and don't include specific details or
+            examples of these programs or initiatives.</p>
+    </details>
+    <h3>
+        Read more about"Akhil Buddhi"
+        <a id="tribute-link" href="http://www.youtube.com/@akhil.buddhi" target"-blank">youtube</a>
+        <a id="tribute-link"
+            href="https://www.linkedin.com/in/akhil-buddhi-04716a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target"-blank">,linkedin</a>
+
+    </h3>
+</section>
+</center>
+</body>
+
+</html>
